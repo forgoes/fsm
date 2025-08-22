@@ -36,8 +36,8 @@ make clean
 fsm/
 ├── fsm.go             # Core FSM implementation (states, transitions, guards, actions)
 ├── fsm_test.go        # Unit tests for the FSM core
-├── mod_three.go        # Example FSM: binary string modulo 3 calculator
-├── mod_three_test.go   # Unit tests for the modThreeFSM example
+├── mod_three.go       # Example FSM: binary string modulo 3 calculator
+├── mod_three_test.go  # Unit tests for the modThreeFSM example
 ├── go.mod             # Go module definition
 └── Makefile           # Helper commands for testing, coverage, and benchmarks
 ```
